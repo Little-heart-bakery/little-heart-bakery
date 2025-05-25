@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Heart Bakery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff7f7;
+      color: #333;
+    }
+    header {
+      background-color: #ffe3e3;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #d6336c;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #ffd6e0;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #d6336c;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a61e4d;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .section h2 {
+      font-size: 2em;
+      color: #d6336c;
+      margin-bottom: 20px;
+    }
+    .photo-placeholder {
+      width: 100%;
+      max-width: 300px;
+      height: 200px;
+      background-color: #cce5ff;
+      color: #004085;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    footer {
+      background-color: #ffe3e3;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Little Heart Bakery</h1>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Little Heart Bakery, we believe in baking with love. Every cookie, cupcake, and croissant is made from scratch using the finest ingredients and a whole lot of heart.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>❤️ Strawberry Shortcake</li>
+      <li>🍪 Chocolate Chunk Cookies</li>
+      <li>🍰 Vanilla Cream Cupcakes</li>
+      <li>🥐 Buttery Croissants</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div class="photo-placeholder">Photo</div>
+      <div class="photo-placeholder">Photo</div>
+      <div class="photo-placeholder">Photo</div>
+      <div class="photo-placeholder">Photo</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: hello@littleheartbakery.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Visit us at 123 Sweet Street, Cupcake Town, USA</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Little Heart Bakery. All rights reserved.
+  </footer>
+</body>
+</html>
